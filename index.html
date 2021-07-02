@@ -13,9 +13,15 @@
 
 <body>
 
+    <!-- start root -->
     <div id="app">
 
+        <ol v-if="arrayMail.length == 10">
+            <li v-for="mail in arrayMail">{{mail}}</li>
+        </ol>   
+
     </div>
+    <!-- end root -->
 
 
     <!-- js -->
